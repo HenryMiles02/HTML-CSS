@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient( #68b7fd, #ffffff) fixed;
+        }
+        
+        header {
+            background-color: darkgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        nav{
+            background-color: rgb(221, 220, 220);
+            padding: 3px; 
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.342);
+            border-radius: 10px 15px 20px 25px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+           
+        }
+
+        main {
+            background-color: darkgray;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 30px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 15px;
+        }
+
+        article > aside{
+            background-color: rgb(155, 154, 154);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 10px;
+        }
+        
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meus site</h1>
+         <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="noticias">
+
+        </section>
+        <article>
+            <h2>Titulo</h2>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate voluptate eum molestiae impedit, veritatis, quidem assumenda voluptatem maxime rem ad vitae laborum eveniet. Distinctio, natus ducimus ab fugiat at quidem.</p>
+        </article>
+        <article>
+            <h2>Titulo</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia hic voluptates! Enim adipisci cumque ad ratione temporibus, doloribus dolore. Nemo temporibus repellat dolore eaque odit quisquam consequatur, numquam reiciendis.</p>
+            <aside>
+                <p>Conteudo periférico do texto</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Henry.</p>
+    </footer>
+
+</body>
+</html>
